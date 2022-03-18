@@ -1,6 +1,6 @@
 {
   "name": "webpack-hot-middleware-koa",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "webpack-hot-middleware for koa",
   "main": "src/index.js",
   "scripts": {
