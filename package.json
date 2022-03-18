@@ -1,0 +1,22 @@
+{
+  "name": "webpack-hot-middleware-koa",
+  "version": "0.0.0",
+  "description": "webpack-hot-middleware for koa",
+  "main": "src/index.js",
+  "scripts": {
+    "release": "bumpp --push --tag --commit && npm publish"
+  },
+  "author": "crcong",
+  "license": "MIC",
+  "dependencies": {
+    "webpack-hot-middleware": "^2.25.1"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0 || ^5.0.0"
+  },
+  "devDependencies": {
+    "@crcong/eslint-config-basic": "^0.2.0",
+    "bumpp": "^7.1.1",
+    "eslint": "^8.11.0"
+  }
+}
